@@ -1,3 +1,13 @@
+Google cloud shell
+
+----
+	git clone https://github.com/speed/KindleEar.git \
+	    && cd KindleEar \
+		&& gcloud app deploy app.yaml \
+		&& gcloud app deploy index.yaml
+----
+	
+
 Readme of english version refers to [Readme_EN.md](https://github.com/cdhigh/KindleEar/blob/master/readme_EN.md)
 
 #简介
