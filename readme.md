@@ -2,10 +2,14 @@ Google cloud shell
 
 remove field application in file app.yaml	
 ----
-	git clone https://github.com/speed/KindleEar.git \
-	    && cd KindleEar \
-		&& gcloud app deploy app.yaml \
-		&& gcloud app deploy index.yaml
+git clone https://github.com/speed/KindleEar.git \
+    && cd KindleEar \
+	&& gcloud app deploy app.yaml \
+	&& gcloud app deploy index.yaml \
+	&& gcloud app deploy cron.yaml \
+	&& gcloud app deploy queue.yaml \
+	&& gcloud app deploy module-worker.yaml \
+	&& gcloud app deploy dispatch.yaml
 ----
 	
 
