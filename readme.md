@@ -1,6 +1,13 @@
 Google cloud shell
 
-remove field application in file app.yaml	
+app.yaml 、 module-worker.yaml
+
+This field 'application' is not used by gcloud and must be removed
+
+
+https://console.cloud.google.com/appengine/settings
+
+Email API authorized senders add your email
 
 ----
 	git clone https://github.com/speed/KindleEar.git \
