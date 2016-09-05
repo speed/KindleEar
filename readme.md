@@ -1,5 +1,6 @@
 Google cloud shell
 
+remove field application in file app.yaml	
 ----
 	git clone https://github.com/speed/KindleEar.git \
 	    && cd KindleEar \
